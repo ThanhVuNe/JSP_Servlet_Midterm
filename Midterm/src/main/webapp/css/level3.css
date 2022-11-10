@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: green;
+}
+form{
+    display: flex;
+}
+.c1{
+    margin-right: 40px;
+}
+.c2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+select{
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+}
+.monitor-container{
+    display: flex;
+    justify-content: center; 
+}
+.printer-container{
+    display: flex;
+    justify-content: center; 
+}
+.scanner-container{
+    display: flex;
+    justify-content: center; 
+}
+
+.button{
+    border-radius: 5px;
+    border: none;
+    width: 90px;
+    height: 30px;
+    margin: 20px;
+    cursor: pointer;
+}
+.visible {
+    display: none;
+}
+
+
+
+
